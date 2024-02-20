@@ -1,0 +1,19 @@
+
+
+name: " "
+output_dir: "docs"
+navbar:
+  title: "Introducción"
+  left:
+    - text: "Tipo de objetos"
+      href: recurso101.html  
+    - text: "Paquetes"
+      href: recurso102.html
+    - text: "Documentos"
+      href: recurso103.html
+    - text: "Tutoriales"
+      href: recurso104.html
+    - text: "Importar datos"
+      href: recurso108.html        
+   
+
