@@ -74,11 +74,11 @@ install.packages("blogdown")
 
 ## <span style="color:#034a94">**Formato Rmd**</span>
 
-Para asceder a una plantilla Rmd ingresamos por :
+Para acceder a una plantilla Rmd ingresamos por :
 
 <br/>
 
-File / New File / R Marckdown ...
+File / New File / R Markdown ...
 
 <center>
 ```{r, echo=FALSE, out.width="50%", fig.align = "center"}
@@ -90,7 +90,7 @@ knitr::include_graphics("img/Rmd1.png")
 
 <br/>
 
-Se depliega una ventana donde podemos colocar el nombre del documento 
+Se despliega una ventana donde podemos colocar el nombre del documento 
 
 <center>
 ```{r, echo=FALSE, out.width="50%", fig.align = "center"}
@@ -119,7 +119,7 @@ Ademas de estos documentos existen plantillas que se activan al instalar paquete
 
 <br/>
 
-Es recomendable crear un espacio para cada proyectos en su inicio,  con el fin de que todos los códigos, imágenes y ademas archivos queden asociados a una carpeta de tal forma que estén disponibles cuando se active el proyecto. 
+Es recomendable crear un espacio para cada proyectos en su inicio,  con el fin de que todos los códigos, imágenes y ademas archivos queden asociados a una carpeta de tal forma que estén disponibles cuando se active el proyecto.
 
 <br/>
 

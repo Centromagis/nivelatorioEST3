@@ -14,7 +14,7 @@
 
 <title> Importar datos</title>
 
-<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -315,15 +315,15 @@ Excel</em>.</p></li>
 <p><br/></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Utilizando el paquete Rcmdr y RcomdrMisc que activa una interfas de
-R que trabaja con menus y ventanas con un proceso parecido al
-anterio</li>
+R que trabaja con menús y ventanas con un proceso parecido al
+anterior</li>
 </ol>
 <p>Los anteriores caso implican que tengamos la base de datos descargada
 en una carpeta de nuestro PC</p>
 <p><br/></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Podemos importar la base de datos de un repositorio que maneje API
-que es un permiso a traves de un token. En este caso debemos solicitar
+que es un permiso a través de un token. En este caso debemos solicitar
 el token e instalar el paquete RSocrata</li>
 </ol>
 <p><br/></p>
@@ -336,9 +336,9 @@ Colombia <- read.socrata("https://www.datos.gov.co/resource/gt2j-8ykr.json", app
 <p><br/></p>
 <p>Este proceso tarde unos minutos pues la base es grande</p>
 <p><br/></p>
-<p>Para guardar el archivo en un PC, es recomendable utilizar el
-formarto RDS que ocupa menos espacio. En este caso se guarda el archivo
-con el nombre de <em>Colombia.RDS</em> en la carpeta <em>data/</em></p>
+<p>Para guardar el archivo en un PC, es recomendable utilizar el formato
+RDS que ocupa menos espacio. En este caso se guarda el archivo con el
+nombre de <em>Colombia.RDS</em> en la carpeta <em>data/</em></p>
 <pre>
 saveRDS(Colombia, file = "data/Colombia23.RDS") 
 </pre>

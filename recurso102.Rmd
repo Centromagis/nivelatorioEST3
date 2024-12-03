@@ -25,9 +25,9 @@ La mayoría de los paquetes de R se almacenan en el sitio web CRAN (Comprehensiv
 
 <br/><br/>
 
-## <span style="color:#034a94">**Algunios paquetes utilizados en Ciencia de Datos**</span>
+## <span style="color:#034a94">**Algunos paquetes utilizados en Ciencia de Datos**</span>
 
-Existe un gran número de paquetes que ayudan a los cientificos de datos a desarrollar diferentes actividades para cada una de las etapas que surgen en el manejo de los datos
+Existe un gran número de paquetes que ayudan a los científicos de datos a desarrollar diferentes actividades para cada una de las etapas que surgen en el manejo de los datos
 
 <center>
 ```{r, echo=FALSE, out.width="100%", fig.align = "center"}

@@ -37,13 +37,13 @@ knitr::include_graphics("img/importar2.png")
 
 <br/>
 
-2. Utilizando el paquete Rcmdr y RcomdrMisc que activa una interfas de R que trabaja con menus y ventanas con un proceso parecido al anterio
+2. Utilizando el paquete Rcmdr y RcomdrMisc que activa una interfas de R que trabaja con menús y ventanas con un proceso parecido al anterior
 
 Los anteriores caso implican que tengamos la base de datos descargada en una carpeta de nuestro PC
 
 <br/>
 
-3. Podemos importar la base de datos de un repositorio que maneje API que es un permiso a traves de un token. En este caso debemos solicitar el token e instalar el paquete RSocrata
+3. Podemos importar la base de datos de un repositorio que maneje API que es un permiso a través de un token. En este caso debemos solicitar el token e instalar el paquete RSocrata
 
 <br/>
 
@@ -60,7 +60,7 @@ Este proceso tarde unos minutos pues  la base es grande
 
 <br/>
 
-Para guardar el archivo en un PC, es recomendable utilizar el formarto RDS que ocupa menos espacio. En este caso se guarda el archivo con el nombre de *Colombia.RDS* en la carpeta *data/*
+Para guardar el archivo en un PC, es recomendable utilizar el formato RDS que ocupa menos espacio. En este caso se guarda el archivo con el nombre de *Colombia.RDS* en la carpeta *data/*
 
 <pre>
 saveRDS(Colombia, file = "data/Colombia23.RDS") 

@@ -142,8 +142,8 @@ knitr::include_graphics("img/lista.png")
 Estructura de datos de dos dimensiones - filas y columnas - base de datos. con la función `data()` se pueden cargar bases de datos contenidas en R.  `data(iris)` carga la base iris que contiene 150 registros (colomnas) y 5 variables (filas). 
 
 ```{r}
-data(iris) # carga la data desde un paquete activado
-head(iris) # presenta los primeros 6 registros
+data(iris) # Carga la data desde un paquete activado
+head(iris) # Presenta los primeros 6 registros
 ```
 
 
@@ -173,12 +173,11 @@ En este caso la función es evaluada dentro de un otra función en la construcci
 
 ```{r}
 fx=function(x){1/(x-1)^2} 
-x=seq(from=2,to=10, by=0.01)  # genera secuencia de numeros entre 2 y 10 con paso 0.01
+x=seq(from=2,to=10, by=0.01)  # Genera secuencia de numeros entre 2 y 10 con paso 0.01
 plot(x, fx(x), type="l", col="#FF7F00", lwd = 2, las=1) # genera grafica
 ```
 
 El siguiente ejemplo construye una función para la realización de un gráfico. En este caso los valores de entrada están conformados por un vector de datos y un color
-
 
 <pre>
 # funcion definida para la construcción de gráficos
@@ -190,16 +189,16 @@ grafica=function(x,color){
 
 ```{r, fig.width=8, fig.height=4}
 
-# funcion definida para la construcción de gráficos
+# Función definida para la construcción de gráficos
 grafica=function(x,color){
 	            barplot(x,col=color, las=1)
               }
 
-y=sample(1:6,100, replace = T)  # generacion de datos
+y=sample(1:6,100, replace = T)  # Generación de datos
 
-z=table(y) # generacion de tabla de datos
-par(mfrow = c(1, 2)) # arma una matrix 1X2 de graficos
-grafica(z,"#034A94")  # evalúa la función en los datos z y colo rojo
+z=table(y) # * Probabilidad de tener éxito en una operación de pterigio de tabla de datos
+par(mfrow = c(1, 2)) # Arma una matriz 1X2 de graficos
+grafica(z,"#034A94")  # Evalúa la función en los datos z y colo rojo
 grafica(z,"#0EB0C6")
 ```
 

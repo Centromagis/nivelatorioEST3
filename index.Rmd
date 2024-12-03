@@ -40,7 +40,7 @@ knitr::include_graphics("img/logoR.png")
 
 <br/>
 
-Es un lenguaje para la computación  estadística, utilizado para el procesamiento de información y generación de modelos estadísticos. 
+Es un lenguaje para la computación estadística, utilizado para el procesamiento de información y generación de modelos estadísticos. 
 
 Entre las principales características  están:
 
@@ -110,7 +110,7 @@ knitr::include_graphics("img/VRStudio.png")
 
 <br/><br/>
 
-En los siguientes enlaces se pueden descargar los programas para su instalación :
+En los siguientes enlaces se pueden descargar los programas para su instalación:
 
 + [R download](https://cran.r-project.org/)
 

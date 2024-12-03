@@ -13,9 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br/><br/>
 
-Los tutoriales constituyen una buena herramienta para el parendizaje de R, permitiendo realizar pruebas de opción multiple y tambien el aprendizaje la programación en R utilizando problemas que retan al usuario, brindando tambien apoyo mediante ayudas de código.
+Los tutoriales constituyen una buena herramienta para el aprendizaje de R, permitiendo realizar pruebas de opción múltiple y también el aprendizaje la programación en R utilizando problemas que retan al usuario, brindando también apoyo mediante ayudas de código.
 
-En este caso - Nivelatorio de Estadística - para asceder a los tutoriales realizar la instalación previa de  paqueteNIV que además de los tutotiales, contiene data y funciones.
+En este caso - Nivelatorio de Estadística - para acceder a los tutoriales realizar la instalación previa de  paqueteNIV que además de los tutoriales, contiene data y funciones.
 
 
 <br/><br/>
